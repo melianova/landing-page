@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --color-dark-background: #1F2937;
+    --color-dark-text: #1F2937;
+    --color-light-text: #F9FAF8;
+    --color-light-alternative-text: #E5E7EB;
+    --color-cta-background: #3882F6;
+    --color-quote-background: #E5E7EB;
+
+    /* FONTS */
+    --text-sie-main: 48px;
+    --text-size-header: 36px;
+    --text-size-logo: 24px;
+    --text-size-secondary: 18px;
+}
+body {
+    font-size: 62.5%;
+    max-width: 1280px;
+}
