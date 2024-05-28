@@ -152,6 +152,8 @@ blockquote {
 }
 
 .inspiring-quote footer {
+    background-color: inherit;
+    color: inherit;
     text-align: right;
     font-size: var(--text-size-logo);
     font-weight: bold;
