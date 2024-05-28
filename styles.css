@@ -184,3 +184,16 @@ blockquote {
 .button.alt {
     border: 2px solid var(--color-light-text);
 }
+
+footer {
+    background-color: var(--color-dark-background);
+    font-size: var(--text-size-secondary);
+    color: var(--color-light-text);
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
