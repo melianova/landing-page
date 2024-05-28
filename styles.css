@@ -131,3 +131,29 @@ h2 {
     border-radius: 6px;
     padding: 40px;
 }
+
+.inspiring-quote {
+    background-color: var(--color-quote-background);
+    font-size: var(--text-size-header);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.inspiring-quote .wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 720px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.inspiring-quote footer {
+    text-align: right;
+    font-size: var(--text-size-logo);
+    font-weight: bold;
+    font-style: normal;
+}
