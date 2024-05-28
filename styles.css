@@ -12,7 +12,7 @@
     --color-quote-background: #E5E7EB;
 
     /* FONTS */
-    --text-sie-main: 48px;
+    --text-size-main: 48px;
     --text-size-header: 36px;
     --text-size-logo: 24px;
     --text-size-secondary: 18px;
@@ -56,4 +56,44 @@ header > .wrapper {
 .logo {
     font-size: var(--text-size-logo);
     font-weight: bold;
+}
+
+main {
+    background-color: var(--color-dark-background);
+    font-size: 18px;
+    color: var(--color-light-alternative-text);
+}
+
+main > .wrapper {
+    display: flex;
+    gap: 36px;
+    padding: 120px 0;
+}
+
+main section {
+    flex: 1;
+}
+
+main img {
+    flex: 1;
+    background-color: gray;
+}
+
+.title {
+    font-size: var(--text-size-main);
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subtext {
+    margin-top: 0;
+}
+
+.button {
+    color: var(--color-light-text);
+    font-weight: bold;
+    background-color: var(--color-cta-background);
+    padding: 0.5rem 1.5rem;
+    border-radius: 12px;
 }
