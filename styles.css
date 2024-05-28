@@ -157,3 +157,30 @@ blockquote {
     font-weight: bold;
     font-style: normal;
 }
+
+.cta {
+    margin: 100px 0;
+    font-size: var(--text-size-secondary);
+    color: var(--color-light-text);
+}
+
+.cta h2 {
+    color: white;
+    margin: 0;
+}
+.cta p {
+    margin: 0;
+}
+
+.cta .wrapper {
+    background-color: var(--color-cta-background);
+    padding: 50px 120px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button.alt {
+    border: 2px solid var(--color-light-text);
+}
