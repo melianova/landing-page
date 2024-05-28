@@ -22,6 +22,9 @@ body {
     font-size: 62.5%;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 
 .wrapper {
     max-width: 1280px;
