@@ -22,3 +22,27 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+header {
+    font-size: var(--text-size-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-dark-background);
+    color: var(--color-light-text);
+}
+
+.link-list {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.link-list a {
+    color: var(--color-light-alternative-text);
+}
+
+.logo {
+    font-size: var(--text-size-logo);
+    font-weight: bold;
+}
